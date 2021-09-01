@@ -23,7 +23,6 @@ class DoctorController extends Controller
     {
         $doctors = $this->doctorService->list();
 
-        dd($doctors);
         return $doctors;
     }
 
