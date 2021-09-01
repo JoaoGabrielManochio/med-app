@@ -21,3 +21,6 @@ config-clear:
 
 container:
 	cd .docker && docker-compose exec php-fpm php artisan $(cmd)
+
+optimize:
+	cd .docker && docker-compose exec php-fpm php artisan optimize

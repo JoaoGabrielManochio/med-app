@@ -84,12 +84,6 @@ class UserController extends Controller
     {
         $user = $this->userService->update($id);
 
-        if (!$user) {
-
-        } else {
-
-        }
-
         return redirect()->route('users.index');
     }
 
@@ -102,12 +96,6 @@ class UserController extends Controller
     public function destroy($id)
     {
         $user = $this->userService->destroy($id);
-
-        if (!$user) {
-
-        } else {
-
-        }
 
         return redirect()->route('users.index');
     }
