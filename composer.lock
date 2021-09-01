@@ -1155,6 +1155,7 @@
                 "brianium/paratest": "Required to run tests in parallel (^6.0).",
                 "doctrine/dbal": "Required to rename columns and drop SQLite columns (^2.6|^3.0).",
                 "ext-ftp": "Required to use the Flysystem FTP driver.",
+                "ext-gd": "Required to use Illuminate\\Http\\Testing\\FileFactory::image().",
                 "ext-memcached": "Required to use the memcache cache driver.",
                 "ext-pcntl": "Required to use all features of the queue worker.",
                 "ext-posix": "Required to use all features of the queue worker.",
@@ -1517,7 +1518,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.3 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
                 "infection/infection": "^0.17",
@@ -1584,7 +1585,7 @@
                 "ext-openssl": "*",
                 "ext-sodium": "*",
                 "lcobucci/clock": "^2.0",
-                "php": "^7.3 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
                 "infection/infection": "^0.21",
@@ -1654,7 +1655,7 @@
             "require": {
                 "ext-mbstring": "*",
                 "league/config": "^1.1.1",
-                "php": "^7.3 || ^8.0",
+                "php": "^7.4 || ^8.0",
                 "psr/event-dispatcher": "^1.0",
                 "symfony/polyfill-php80": "^1.15"
             },
@@ -1765,7 +1766,7 @@
             "require": {
                 "dflydev/dot-access-data": "^3.0.1",
                 "nette/schema": "^1.2",
-                "php": "^7.3 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
                 "phpstan/phpstan": "^0.12.90",
@@ -2777,6 +2778,7 @@
                 "tracy/tracy": "^2.3"
             },
             "suggest": {
+                "ext-gd": "to use Image",
                 "ext-iconv": "to use Strings::webalize(), toAscii(), chr() and reverse()",
                 "ext-intl": "to use Strings::webalize(), toAscii(), normalize() and compare()",
                 "ext-json": "to use Nette\\Utils\\Json",
@@ -3222,6 +3224,7 @@
                 "ext-ctype": "*",
                 "ext-dom": "*",
                 "ext-fileinfo": "*",
+                "ext-gd": "*",
                 "ext-iconv": "*",
                 "ext-libxml": "*",
                 "ext-mbstring": "*",
